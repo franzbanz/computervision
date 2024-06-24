@@ -1,6 +1,3 @@
-Sure! I'll refine the formatting of your Markdown file to improve readability and structure:
-
-```markdown
 # Graphical Chart Reader using Computer Vision
 
 This repository contains the code for my Bachelor's thesis project. The project involves developing a program that uses computer vision techniques and the OpenCV library for Python to read and interpret various types of graphical charts, such as those used in Simulink.
@@ -70,13 +67,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 For any questions or further information, please contact me at your-email@example.com.
 ```
-
-In this updated version:
-
-- Headers are appropriately formatted with `#` for different sections.
-- Lists under each section are more visually structured.
-- Code blocks for commands (`bash` and Python) are formatted for clarity.
-- Command line arguments are listed under the "Usage" section in a dedicated subsection.
-- Contribution guidelines are presented in a numbered list for clear steps.
-- The license section is clearly marked.
-- Contact information is provided at the end.
