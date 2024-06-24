@@ -65,5 +65,5 @@ Contributions are welcome! If you have any suggestions or improvements, please c
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-For any questions or further information, please contact me at your-email@example.com.
+For any questions or further information, please contact me at franz@koehler-kn.de.
 ```
