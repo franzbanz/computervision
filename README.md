@@ -1,3 +1,6 @@
+Sure! I'll refine the formatting of your Markdown file to improve readability and structure:
+
+```markdown
 # Graphical Chart Reader using Computer Vision
 
 This repository contains the code for my Bachelor's thesis project. The project involves developing a program that uses computer vision techniques and the OpenCV library for Python to read and interpret various types of graphical charts, such as those used in Simulink.
@@ -24,24 +27,27 @@ Graphical charts are widely used in engineering and scientific applications for 
 
 ## Installation
 
-To get started with this project, clone the repository and install the required dependencies.
+To get started with this project, clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/yourusername/graphical-chart-reader.git
 cd graphical-chart-reader
 pip install -r requirements.txt
+```
 
 ## Usage
 
-To use the program, run the main script with the path to the image of the chart you want to analyze.
+To use the program, run the main script with the path to the image of the chart you want to analyze:
 
+```bash
 python main.py --image path/to/your/chart.png
+```
 
-## Command Line Arguments
+### Command Line Arguments
 
---image: Path to the image file containing the chart.
+- `--image`: Path to the image file containing the chart.
 
-## Technologies used
+## Technologies Used
 
 - Python
 - OpenCV
@@ -52,14 +58,25 @@ python main.py --image path/to/your/chart.png
 
 Contributions are welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.
 
-    Fork the repository
-    Create your feature branch (git checkout -b feature/YourFeature)
-    Commit your changes (git commit -m 'Add some feature')
-    Push to the branch (git push origin feature/YourFeature)
-    Open a pull request
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request
 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 For any questions or further information, please contact me at your-email@example.com.
+```
+
+In this updated version:
+
+- Headers are appropriately formatted with `#` for different sections.
+- Lists under each section are more visually structured.
+- Code blocks for commands (`bash` and Python) are formatted for clarity.
+- Command line arguments are listed under the "Usage" section in a dedicated subsection.
+- Contribution guidelines are presented in a numbered list for clear steps.
+- The license section is clearly marked.
+- Contact information is provided at the end.
