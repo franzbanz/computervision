@@ -26,7 +26,7 @@ def thresh_callback(val):
  
 # Load source image
 parser = argparse.ArgumentParser(description='Code for Finding contours in your image tutorial.')
-parser.add_argument('--input', help='Path to input image.', default='man.jpg')
+parser.add_argument('--input', help='Path to input image.', default='fox.jpg')
 args = parser.parse_args()
  
 src = cv.imread(cv.samples.findFile(args.input))
