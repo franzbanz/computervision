@@ -1,1 +1,2 @@
 *.ipynb filter=lfs diff=lfs merge=lfs -text
+scalable_vertex_detection_functions.ipynb filter=lfs diff=lfs merge=lfs -text
