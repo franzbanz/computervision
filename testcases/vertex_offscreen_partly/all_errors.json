@@ -1,0 +1,89 @@
+[
+    {
+        "type": "undetectedPixels",
+        "element": [
+            "undetected",
+            0
+        ],
+        "bounding_box": [
+            1381,
+            -19,
+            167,
+            200
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "text",
+            1
+        ],
+        "bounding_box": [
+            1398,
+            193,
+            145,
+            14
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "input.svg",
+            4
+        ],
+        "bounding_box": [
+            1375,
+            0,
+            23,
+            23
+        ],
+        "class_name": null
+    },
+    {
+        "type": "associationTargetMissing",
+        "element": [
+            "edge",
+            3
+        ],
+        "bounding_box": null,
+        "class_name": null
+    },
+    {
+        "type": "instanceCountMismatch",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Task"
+    },
+    {
+        "type": "instanceCountMismatch",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Input"
+    },
+    {
+        "type": "instanceNameNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Task"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    }
+]

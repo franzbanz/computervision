@@ -1,0 +1,30 @@
+[
+    {
+        "type": "undetectedPixels",
+        "element": [
+            "undetected",
+            0
+        ],
+        "bounding_box": [
+            856,
+            21,
+            3,
+            3
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "text",
+            0
+        ],
+        "bounding_box": [
+            791,
+            35,
+            53,
+            17
+        ],
+        "class_name": null
+    }
+]

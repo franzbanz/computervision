@@ -1,0 +1,72 @@
+[
+    {
+        "type": "undetectedPixels",
+        "element": [
+            "undetected",
+            0
+        ],
+        "bounding_box": [
+            840,
+            18,
+            3,
+            3
+        ],
+        "class_name": null
+    },
+    {
+        "type": "undetectedPixels",
+        "element": [
+            "undetected",
+            1
+        ],
+        "bounding_box": [
+            861,
+            -19,
+            50,
+            58
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "text",
+            0
+        ],
+        "bounding_box": [
+            791,
+            15,
+            39,
+            17
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "text",
+            1
+        ],
+        "bounding_box": [
+            813,
+            39,
+            146,
+            14
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "input.svg",
+            4
+        ],
+        "bounding_box": [
+            855,
+            0,
+            23,
+            23
+        ],
+        "class_name": null
+    }
+]

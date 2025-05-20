@@ -1,0 +1,30 @@
+[
+    {
+        "type": "missingParent",
+        "element": [
+            "text",
+            9
+        ],
+        "bounding_box": [
+            1058,
+            328,
+            146,
+            15
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "input.svg",
+            4
+        ],
+        "bounding_box": [
+            1035,
+            135,
+            23,
+            23
+        ],
+        "class_name": null
+    }
+]

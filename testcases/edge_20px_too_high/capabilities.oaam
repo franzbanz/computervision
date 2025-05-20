@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<de.oaam.model:Architecture xmlns:xmi="http://www.omg.org/XMI" xmlns:de.oaam.model="http://www.oaam.de/oaam/model/v160" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.oaam.model.allocations="http://www.oaam.de/oaam/model/v160/allocations" xmi:version="2.0">
+  <functions name="MyFunctionsOfDoorSystem">
+    <tasks name="Door System Logic">
+      <inputs name="2"/>
+      <inputs name="3"/>
+      <outputs name="B"/>
+      <outputs name="C"/>
+      <outputs name="E"/>
+    </tasks>
+    <tasks name="Sensor Close Button">
+      <outputs name="A"/>
+    </tasks>
+    <tasks name="Sensor Open Button">
+      <outputs name="D"/>
+    </tasks>
+    <tasks name="Actor Locked">
+      <inputs name="1"/>
+    </tasks>
+    <tasks name="Actor Unlocked">
+      <inputs name="4"/>
+    </tasks>
+    <tasks name="System Logic Logging">
+      <inputs name="5"/>
+    </tasks>
+    <signals source="//@functions/@tasks.0/@outputs.0" targets="//@functions/@tasks.3/@inputs.0"/>
+    <signals source="//@functions/@tasks.0/@outputs.1" targets="//@functions/@tasks.4/@inputs.0"/>
+    <signals name="OpenButton2SystemLogic" source="//@functions/@tasks.1/@outputs.0" targets="//@functions/@tasks.0/@inputs.0"/>
+    <signals source="//@functions/@tasks.2/@outputs.0" targets="//@functions/@tasks.0/@inputs.1"/>
+    <signals name="logic2logging" source="//@functions/@tasks.0/@outputs.2" targets="//@functions/@tasks.5/@inputs.0"/>
+  </functions>
+  <hardware>
+    <devices name="CRDC_1" type="//@library/@deviceTypes.1">
+      <ios name="DSI_1" declaration="//@library/@deviceTypes.1/@ioDeclarations.0"/>
+      <ios name="DSI_2" declaration="//@library/@deviceTypes.1/@ioDeclarations.1"/>
+      <ios name="AFDX_1" declaration="//@library/@deviceTypes.1/@ioDeclarations.2"/>
+      <ios name="DSO_1" declaration="//@library/@deviceTypes.1/@ioDeclarations.3"/>
+      <ios name="DSO_2" declaration="//@library/@deviceTypes.1/@ioDeclarations.4"/>
+    </devices>
+    <devices name="CRDC_2" type="//@library/@deviceTypes.1">
+      <ios name="DSI_1" declaration="//@library/@deviceTypes.1/@ioDeclarations.0"/>
+      <ios name="DSI_2" declaration="//@library/@deviceTypes.1/@ioDeclarations.1"/>
+      <ios name="AFDX_1" declaration="//@library/@deviceTypes.1/@ioDeclarations.2"/>
+      <ios name="DSO_1" declaration="//@library/@deviceTypes.1/@ioDeclarations.3"/>
+      <ios name="DSO_2" declaration="//@library/@deviceTypes.1/@ioDeclarations.4"/>
+    </devices>
+    <devices name="CPM" type="//@library/@deviceTypes.0">
+      <ios name="AFDX_1" declaration="//@library/@deviceTypes.0/@ioDeclarations.0"/>
+      <ios name="AFDX_2" declaration="//@library/@deviceTypes.0/@ioDeclarations.1"/>
+      <ios/>
+    </devices>
+    <connections startingPoints="//@hardware/@devices.0/@ios.2"/>
+    <connections name="CrdC2CPM" startingPoints="//@hardware/@devices.0/@ios.2" endPoints="//@hardware/@devices.2/@ios.0"/>
+    <connections startingPoints="//@hardware/@devices.2/@ios.1" endPoints="//@hardware/@devices.1/@ios.2"/>
+  </hardware>
+  <allocations>
+    <taskAssignments device="//@hardware/@devices.2" task="//@functions/@tasks.0"/>
+    <taskAssignments device="//@hardware/@devices.0" task="//@functions/@tasks.1"/>
+    <taskAssignments device="//@hardware/@devices.2" task="//@functions/@tasks.5"/>
+    <signalAssignments name="openButton" signal="//@functions/@signals.2">
+      <segments xsi:type="de.oaam.model.allocations:Segment" device="//@hardware/@devices.0"/>
+      <segments xsi:type="de.oaam.model.allocations:Segment" connection="//@hardware/@connections.1"/>
+      <segments xsi:type="de.oaam.model.allocations:Segment" device="//@hardware/@devices.2"/>
+    </signalAssignments>
+    <signalAssignments name="logging" signal="//@functions/@signals.4">
+      <segments xsi:type="de.oaam.model.allocations:Segment" device="//@hardware/@devices.2"/>
+    </signalAssignments>
+  </allocations>
+  <library>
+    <deviceTypes name="CPM">
+      <ioDeclarations name="AFDX_1" type="//@library/@ioTypes.1"/>
+      <ioDeclarations name="AFDX_2" type="//@library/@ioTypes.1"/>
+    </deviceTypes>
+    <deviceTypes name="CRDC">
+      <ioDeclarations name="DSI_1" type="//@library/@ioTypes.0"/>
+      <ioDeclarations name="DSI_2" type="//@library/@ioTypes.0"/>
+      <ioDeclarations name="AFDX_1" type="//@library/@ioTypes.1"/>
+      <ioDeclarations name="DSO_1" type="//@library/@ioTypes.2"/>
+      <ioDeclarations name="DSO_2" type="//@library/@ioTypes.2"/>
+    </deviceTypes>
+    <ioTypes name="DSI" direction="IN"/>
+    <ioTypes name="AFDX" direction="BOTH"/>
+    <ioTypes name="DSO" direction="OUT"/>
+  </library>
+</de.oaam.model:Architecture>

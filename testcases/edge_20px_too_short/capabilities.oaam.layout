@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xgeeLayout:LayoutContainer xmlns:xmi="http://www.omg.org/XMI" xmlns:xgeeLayout="http://www.xgee.de/layout/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.oaam.model.functions="http://www.oaam.de/oaam/model/v160/functions" xmlns:xgeeLayoutDefinition="http://www.xgee.de/layout/v1/def" xmi:version="2.0">
+  <layouts scale="1.00001" translateX="724.9927600724992" translateY="64.99936000649998">
+    <refersTo href="capabilities.oaam#//@functions" xsi:type="de.oaam.model.functions:Functions"/>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex">
+      <refersTo href="capabilities.oaam#//@functions" xsi:type="de.oaam.model.functions:Functions"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex">
+      <refersTo href="capabilities.oaam#//@functions" xsi:type="de.oaam.model.functions:Functions"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex">
+      <refersTo href="capabilities.oaam#//@functions" xsi:type="de.oaam.model.functions:Functions"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex">
+      <refersTo href="capabilities.oaam#//@functions" xsi:type="de.oaam.model.functions:Functions"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex">
+      <refersTo href="capabilities.oaam#//@functions" xsi:type="de.oaam.model.functions:Functions"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.0">
+      <refersTo href="capabilities.oaam#//@functions/@signals.0" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.1">
+      <refersTo href="capabilities.oaam#//@functions/@signals.1" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.2">
+      <refersTo href="capabilities.oaam#//@functions/@signals.2" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.3">
+      <refersTo href="capabilities.oaam#//@functions/@signals.3" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.4">
+      <refersTo href="capabilities.oaam#//@functions/@signals.4" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.4">
+      <refersTo href="capabilities.oaam#//@functions/@signals.3" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.4">
+      <refersTo href="capabilities.oaam#//@functions/@signals.2" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.4">
+      <refersTo href="capabilities.oaam#//@functions/@signals.0" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.4">
+      <refersTo href="capabilities.oaam#//@functions/@signals.1" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex" x="1e-05" y="675.00001">
+      <refersTo href="capabilities.oaam#//@functions/@tasks.2" xsi:type="de.oaam.model.functions:Task"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex" x="1e-05" y="225.00001">
+      <refersTo href="capabilities.oaam#//@functions/@tasks.1" xsi:type="de.oaam.model.functions:Task"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex" x="430.00001" y="450.00001">
+      <refersTo href="capabilities.oaam#//@functions/@tasks.0" xsi:type="de.oaam.model.functions:Task"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex" x="860.00001" y="1e-05">
+      <refersTo href="capabilities.oaam#//@functions/@tasks.3" xsi:type="de.oaam.model.functions:Task"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex" x="860.00001" y="480.00001">
+      <refersTo href="capabilities.oaam#//@functions/@tasks.4" xsi:type="de.oaam.model.functions:Task"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Vertex" x="860.00001" y="900.00001">
+      <refersTo href="capabilities.oaam#//@functions/@tasks.5" xsi:type="de.oaam.model.functions:Task"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.0">
+      <refersTo href="capabilities.oaam#//@functions/@signals.1" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.0">
+      <refersTo href="capabilities.oaam#//@functions/@signals.2" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.0">
+      <refersTo href="capabilities.oaam#//@functions/@signals.3" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+    <contents xsi:type="xgeeLayoutDefinition:Edge" parent="//@layouts.0/@contents.0">
+      <refersTo href="capabilities.oaam#//@functions/@signals.4" xsi:type="de.oaam.model.functions:Signal"/>
+    </contents>
+  </layouts>
+</xgeeLayout:LayoutContainer>

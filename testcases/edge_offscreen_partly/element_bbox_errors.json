@@ -1,0 +1,16 @@
+[
+    {
+        "type": "undetectedPixels",
+        "element": [
+            "undetected",
+            0
+        ],
+        "bounding_box": [
+            634,
+            0,
+            215,
+            5
+        ],
+        "class_name": null
+    }
+]

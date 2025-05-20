@@ -1,0 +1,44 @@
+[
+    {
+        "type": "missingParent",
+        "element": [
+            "text",
+            1
+        ],
+        "bounding_box": [
+            878,
+            213,
+            146,
+            14
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "input.svg",
+            4
+        ],
+        "bounding_box": [
+            855,
+            21,
+            22,
+            21
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "output.svg",
+            5
+        ],
+        "bounding_box": [
+            860,
+            21,
+            23,
+            21
+        ],
+        "class_name": null
+    }
+]

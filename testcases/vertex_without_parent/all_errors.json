@@ -1,0 +1,75 @@
+[
+    {
+        "type": "missingParent",
+        "element": [
+            "input.svg",
+            4
+        ],
+        "bounding_box": [
+            855,
+            0,
+            22,
+            21
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "output.svg",
+            5
+        ],
+        "bounding_box": [
+            860,
+            0,
+            23,
+            21
+        ],
+        "class_name": null
+    },
+    {
+        "type": "associationTargetMissing",
+        "element": [
+            "edge",
+            3
+        ],
+        "bounding_box": null,
+        "class_name": null
+    },
+    {
+        "type": "instanceCountMismatch",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Task"
+    },
+    {
+        "type": "instanceCountMismatch",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Input"
+    },
+    {
+        "type": "instanceNameNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Task"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "type": "undetectedPixels",
+        "element": [
+            "undetected",
+            0
+        ],
+        "bounding_box": [
+            738,
+            320,
+            10,
+            293
+        ],
+        "class_name": null
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    }
+]

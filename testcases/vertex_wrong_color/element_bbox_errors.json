@@ -1,0 +1,44 @@
+[
+    {
+        "type": "undetectedPixels",
+        "element": [
+            "undetected",
+            0
+        ],
+        "bounding_box": [
+            861,
+            -19,
+            180,
+            200
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "text",
+            1
+        ],
+        "bounding_box": [
+            878,
+            192,
+            146,
+            14
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "input.svg",
+            4
+        ],
+        "bounding_box": [
+            855,
+            0,
+            23,
+            23
+        ],
+        "class_name": null
+    }
+]

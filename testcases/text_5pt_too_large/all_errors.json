@@ -1,0 +1,28 @@
+[
+    {
+        "type": "missingParent",
+        "element": [
+            "text",
+            1
+        ],
+        "bounding_box": [
+            857,
+            210,
+            187,
+            19
+        ],
+        "class_name": null
+    },
+    {
+        "type": "instanceNameNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Task"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    }
+]

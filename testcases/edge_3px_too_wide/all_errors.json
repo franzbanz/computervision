@@ -1,0 +1,42 @@
+[
+    {
+        "type": "undetectedPixels",
+        "element": [
+            "undetected",
+            0
+        ],
+        "bounding_box": [
+            630,
+            27,
+            213,
+            458
+        ],
+        "class_name": null
+    },
+    {
+        "type": "missingParent",
+        "element": [
+            "output.svg",
+            5
+        ],
+        "bounding_box": [
+            843,
+            20,
+            23,
+            23
+        ],
+        "class_name": null
+    },
+    {
+        "type": "instanceCountMismatch",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    }
+]

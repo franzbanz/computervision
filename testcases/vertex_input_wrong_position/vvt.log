@@ -1,0 +1,322 @@
+2025-05-19 13:47:35,982 - DEBUG - [setup_logging] - VVT logging is set up. log_path: C:\Users\franz\Documents\vscode\xgee-example-app\actions\verifyvisualization\logs\run_20250519_134735\vvt.log. Printing the same message to print, INFO and DEBUG.
+2025-05-19 13:47:35,982 - INFO - [setup_logging] - VVT logging is set up. log_path: C:\Users\franz\Documents\vscode\xgee-example-app\actions\verifyvisualization\logs\run_20250519_134735\vvt.log. Printing the same message to print, INFO and DEBUG.
+2025-05-19 13:47:35,982 - DEBUG - [setup_logging] - Logging Handler: <FileHandler C:\Users\franz\Documents\vscode\xgee-example-app\actions\verifyvisualization\logs\run_20250519_134735\vvt.log (DEBUG)>, Level: 10, Formatter: %(asctime)s - %(levelname)s - [%(funcName)s] - %(message)s
+2025-05-19 13:47:35,982 - DEBUG - [setup_logging] - Logging Handler: <StreamHandler <stdout> (DEBUG)>, Level: 10, Formatter: [%(funcName)s] - %(message)s
+2025-05-19 13:47:35,982 - DEBUG - [setup_logging] - Current working directory: C:\Users\franz\Documents\vscode\xgee-example-app
+2025-05-19 13:47:35,982 - DEBUG - [setup_logging] - __file__: C:\Users\franz\Documents\vscode\xgee-example-app/././actions\verifyvisualization\src\log_utils\logging_setup.py
+2025-05-19 13:47:35,982 - DEBUG - [setup_logging] - Added VVT folder = workspace to path: C:\Users\franz\Documents\vscode\xgee-example-app\actions\verifyvisualization
+2025-05-19 13:47:35,982 - DEBUG - [setup_logging] - Python path: ['C:\\Users\\franz\\Documents\\vscode\\xgee-example-app\\venv\\Scripts\\xgee.exe', 'C:\\Users\\franz\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip', 'C:\\Users\\franz\\AppData\\Local\\Programs\\Python\\Python312\\DLLs', 'C:\\Users\\franz\\AppData\\Local\\Programs\\Python\\Python312\\Lib', 'C:\\Users\\franz\\AppData\\Local\\Programs\\Python\\Python312', 'C:\\Users\\franz\\Documents\\vscode\\xgee-example-app\\venv', 'C:\\Users\\franz\\Documents\\vscode\\xgee-example-app\\venv\\Lib\\site-packages', 'C:\\Users\\franz\\Documents\\vscode\\xgee-example-app/././actions\\verifyvisualization', 'C:\\Users\\franz\\Documents\\vscode\\xgee-example-app\\actions\\verifyvisualization', 'C:\\Users\\franz\\Documents\\vscode\\xgee-example-app/././actions\\verifyvisualization\\tests', 'C:\\Users\\franz\\Documents\\vscode\\xgee-example-app\\actions\\verifyvisualization', 'C:\\Users\\franz\\Documents\\vscode\\xgee-example-app/././actions\\verifyvisualization', 'C:\\Users\\franz\\Documents\\vscode\\xgee-example-app\\actions\\verifyvisualization']
+2025-05-19 13:47:35,982 - INFO - [verify_visualization] - 
+
+==================================================
+Welcome to DOMAINES - VVT - Diagram Parser
+==================================================
+
+2025-05-19 13:47:35,982 - INFO - [verify_visualization] - config: {'logging': {'level': 'DEBUG'}, 'input': {'screenshot': {'enabled': True}, 'file': {'enabled': False}}, 'called_from_XGEE': True, 'remove_grid_and_bubbles': False, 'clip_canvas': True, 'editor_model_path': 'plugins/editor.oaam.functions/'}, xgee_inputs: {'domain': <eoq2.domain.multiprocessing.multiprocessingdomainclient.MultiprocessingQueueDomainClient object at 0x0000018EE9048620>, 'model_to_check': #33}
+2025-05-19 13:47:35,982 - INFO - [verify_visualization] - workspace_path: C:\Users\franz\Documents\vscode\xgee-example-app\actions\verifyvisualization
+2025-05-19 13:47:35,982 - INFO - [verify_visualization] - json_output_write_path: C:\Users\franz\Documents\vscode\xgee-example-app\app\element_bbox_errors.json
+2025-05-19 13:47:35,982 - INFO - [remove_old_output_file] - The writePath: C:\Users\franz\Documents\vscode\xgee-example-app\app\element_bbox_errors.json already exists. Removing such that the existance of the file is an indicator of finished processing.
+2025-05-19 13:47:35,982 - DEBUG - [remove_old_output_file] - The writePath: C:\Users\franz\Documents\vscode\xgee-example-app\app\element_bbox_errors.json was removed.
+2025-05-19 13:47:35,982 - INFO - [capture_screenshot] - In live mode. Taking screenshot.
+2025-05-19 13:47:36,004 - INFO - [grab_screen] - Properties of screen 0: {'left': 0, 'top': 0, 'width': 2880, 'height': 1800}. Taking Screenshot.
+2025-05-19 13:47:36,156 - INFO - [verify_visualization] - diagram_name: screenshot
+2025-05-19 13:47:36,332 - INFO - [preprocess_image] - preprocessing: "remove_grid_and_bubbles" not selected. Ensure that there are neither grid nor bubbles in the screenshot.
+2025-05-19 13:47:36,377 - DEBUG - [__init__] - The image does not have an alpha channel.
+2025-05-19 13:47:36,377 - INFO - [__init__] - The dimensions of the original image are: (1531, 2880, 3). Data type: uint8.
+2025-05-19 13:47:36,424 - INFO - [__init__] - GeometricDataStorageList instantiated.
+2025-05-19 13:47:36,424 - INFO - [open_single_file_domain] - Loading EOQ model from C:\Users\franz\Documents\vscode\xgee-example-app\app\plugins\editor.oaam.functions\Functions.editorModel using metamodel C:\Users\franz\Documents\vscode\xgee-example-app\actions\verifyvisualization\data\editorModel\editorModel.ecore.
+2025-05-19 13:47:36,493 - DEBUG - [parse_diagram] - 
+
+Starting parse_diagram function.
+2025-05-19 13:47:36,493 - INFO - [detect_text] - Cache file not found. Caching is only a development feature and paths are currently quite hard coded.
+2025-05-19 13:47:36,493 - DEBUG - [detect_text] - Detecting text in the diagram. Not read from cache.
+2025-05-19 13:47:36,629 - INFO - [detect_text] - 
+
+Now detecting text in the diagram (Textract first, fallback to EasyOCR).
+2025-05-19 13:47:38,261 - INFO - [store_geometric_shape_collection] - Stored data for displayableObject text of class TextBoxCollection: [TextBox(x=1508, y=192, width=54, height=17, text='Input 1', confidence=98.77162170410156), TextBox(x=1597, y=370, width=147, height=14, text='Task Actor Locked', confidence=99.8463134765625), TextBox(x=926, y=417, width=72, height=18, text='Output A', confidence=99.8525390625), TextBox(x=707, y=594, width=206, height=15, text='Task Sensor Close Button', confidence=99.76229095458984), TextBox(x=1078, y=642, width=56, height=18, text='Input 2', confidence=98.90955352783203), TextBox(x=1356, y=642, width=71, height=18, text='Output B', confidence=99.64815521240234), TextBox(x=1078, y=672, width=56, height=17, text='Input 3', confidence=98.74578857421875), TextBox(x=1356, y=672, width=71, height=18, text='Output C', confidence=99.2811050415039), TextBox(x=1507, y=672, width=57, height=18, text='Input 4', confidence=99.14292907714844), TextBox(x=1356, y=702, width=70, height=18, text='Output E', confidence=99.85159301757812), TextBox(x=1143, y=820, width=194, height=18, text='Task Door System Logic', confidence=99.81011199951172), TextBox(x=1588, y=850, width=163, height=14, text='Task Actor Unlocked', confidence=99.87680053710938), TextBox(x=926, y=867, width=71, height=17, text='Output D', confidence=99.9390869140625), TextBox(x=708, y=1045, width=206, height=18, text='Task Sensor Open Button', confidence=99.90545654296875), TextBox(x=1508, y=1092, width=56, height=18, text='Input 5', confidence=99.2455825805664), TextBox(x=1561, y=1270, width=218, height=19, text='Task System Logic Logging', confidence=99.91233825683594)]
+2025-05-19 13:47:38,317 - INFO - [detect_edges] - Loaded edges from editor model editor.oaam.functions successfully. Detecting edges: [{'name': 'Signal', 'strokeWidth': 4, 'color': '000000', 'hasContainer': False, 'container_filepath': None, 'container_sizeX': None, 'container_sizeY': None, 'autoColor': False}]
+2025-05-19 13:47:38,317 - INFO - [detect_edges] - 
+
+Now detecting edges in the diagram.
+2025-05-19 13:47:38,389 - INFO - [apply_custom_filter] - Edges: min=-4227.0, max=5075.00048828125
+2025-05-19 13:47:38,469 - INFO - [apply_custom_filter] - Edges: min=-4168.99951171875, max=4466.0
+2025-05-19 13:47:38,484 - INFO - [normalize_and_threshold] - Edges thresholded at 240 to 314160 pixels
+2025-05-19 13:47:38,500 - INFO - [normalize_and_threshold] - Edges thresholded at 240 to 565845 pixels
+2025-05-19 13:47:38,500 - INFO - [find_and_filter_contours] - Found 4 contours after filtering
+2025-05-19 13:47:38,513 - INFO - [find_and_filter_contours] - Found 9 contours after filtering
+2025-05-19 13:47:40,247 - INFO - [detect_containers] - Found 0 containers
+2025-05-19 13:47:40,567 - INFO - [detect_intersections] - Found 0 intersections
+2025-05-19 13:47:40,571 - INFO - [find_line_segment_chains] - Found 5 line segment chains
+2025-05-19 13:47:40,574 - INFO - [find_endpoints_of_chains] - Found 10 endpoints
+2025-05-19 13:47:40,575 - INFO - [sort_chains] - Sorted 5 chains
+2025-05-19 13:47:40,575 - INFO - [create_polylines] - Created 5 polylines
+2025-05-19 13:47:40,576 - INFO - [store_geometric_shape_collection] - Stored data for displayableObject edge of class PolygonalChainCollection: [PolygonalChain(points=[(np.int32(1572), np.int32(1088)), (np.int32(1463), np.int32(1088)), (np.int32(1460), np.int32(1084)), (np.int32(1460), np.int32(702)), (np.int32(1456), np.int32(698)), (np.int32(1347), np.int32(698))]), PolygonalChain(points=[(np.int32(917), np.int32(863)), (np.int32(1026), np.int32(863)), (np.int32(1030), np.int32(859)), (np.int32(1030), np.int32(672)), (np.int32(1033), np.int32(668)), (np.int32(1142), np.int32(668))]), PolygonalChain(points=[(np.int32(1142), np.int32(638)), (np.int32(1033), np.int32(638)), (np.int32(1030), np.int32(634)), (np.int32(1030), np.int32(417)), (np.int32(1026), np.int32(413)), (np.int32(917), np.int32(413))]), PolygonalChain(points=[(np.int32(1347), np.int32(638)), (np.int32(1456), np.int32(638)), (np.int32(1460), np.int32(634)), (np.int32(1460), np.int32(192)), (np.int32(1463), np.int32(188)), (np.int32(1572), np.int32(188))]), PolygonalChain(points=[(np.int32(1347), np.int32(668)), (np.int32(1572), np.int32(668))])]
+2025-05-19 13:47:40,969 - INFO - [detect_all_vertices] - Loaded editor model editor.oaam.functions successfully. Detecting vertices: [{'filepath': 'shapes/task.svg', 'sizeX': 180.0, 'sizeY': 200.0, 'isScalable': True, 'name': 'Task', 'isSubVertexBody': False, 'parent_filepath': None}, {'filepath': 'shapes/input.svg', 'sizeX': 20.0, 'sizeY': 20.0, 'isScalable': False, 'name': 'Input', 'isSubVertexBody': False, 'parent_filepath': 'shapes/task.svg'}, {'filepath': 'shapes/output.svg', 'sizeX': 20.0, 'sizeY': 20.0, 'isScalable': False, 'name': 'Output', 'isSubVertexBody': False, 'parent_filepath': 'shapes/task.svg'}]
+2025-05-19 13:47:40,969 - INFO - [make_vertices_data_unique_by_filepath] - Unique vertices for tokenization: [{'filepath': 'shapes/task.svg', 'sizeX': 180.0, 'sizeY': 200.0, 'isScalable': True, 'name': 'Task', 'isSubVertexBody': False, 'parent_filepath': None}, {'filepath': 'shapes/input.svg', 'sizeX': 20.0, 'sizeY': 20.0, 'isScalable': False, 'name': 'Input', 'isSubVertexBody': False, 'parent_filepath': 'shapes/task.svg'}, {'filepath': 'shapes/output.svg', 'sizeX': 20.0, 'sizeY': 20.0, 'isScalable': False, 'name': 'Output', 'isSubVertexBody': False, 'parent_filepath': 'shapes/task.svg'}]
+2025-05-19 13:47:41,239 - DEBUG - [__init__] - The image does not have an alpha channel.
+2025-05-19 13:47:41,241 - INFO - [__init__] - The dimensions of the original image are: (200, 180, 3). Data type: uint8.
+2025-05-19 13:47:41,249 - DEBUG - [__init__] - The image does not have an alpha channel.
+2025-05-19 13:47:41,250 - INFO - [__init__] - The dimensions of the original image are: (1531, 2880, 3). Data type: uint8.
+2025-05-19 13:47:41,286 - DEBUG - [detect_vertices] - <src.log_utils.matplotlib_visualizer.MatplotlibVisualizer object at 0x0000018EA3B8C1D0>
+2025-05-19 13:47:41,325 - DEBUG - [validate_inputs] - Inputs validated.
+2025-05-19 13:47:41,325 - INFO - [detect_vertices] - 
+
+Now detecting vertices in the diagram.
+2025-05-19 13:47:41,325 - DEBUG - [detect_vertices] - The dimensions of the template image are: (200, 180, 3)
+2025-05-19 13:47:41,327 - INFO - [apply_template_matching] - 
+
+Now detecting scalable vertices in the diagram.
+2025-05-19 13:47:48,093 - INFO - [detect_vertices] - Found 6015 matching pixels of the vertex with a threshold of 0.55
+2025-05-19 13:47:48,258 - INFO - [detect_vertices] - Found 6 vertices
+2025-05-19 13:47:48,295 - INFO - [store_geometric_shape_collection] - Stored data for displayableObject task.svg of class BoundingBoxCollection: [BoundingBox(x=1579, y=1058, width=183, height=203), BoundingBox(x=719, y=833, width=183, height=203), BoundingBox(x=1579, y=638, width=183, height=203), BoundingBox(x=1149, y=608, width=183, height=203), BoundingBox(x=719, y=383, width=183, height=203), BoundingBox(x=1579, y=157, width=183, height=204)]
+2025-05-19 13:47:48,295 - DEBUG - [detect_vertices] - Bounding boxes: [BoundingBox(x=1579, y=1058, width=183, height=203), BoundingBox(x=719, y=833, width=183, height=203), BoundingBox(x=1579, y=638, width=183, height=203), BoundingBox(x=1149, y=608, width=183, height=203), BoundingBox(x=719, y=383, width=183, height=203), BoundingBox(x=1579, y=157, width=183, height=204)]
+2025-05-19 13:47:48,301 - DEBUG - [__init__] - The image has an alpha channel.
+2025-05-19 13:47:48,301 - INFO - [__init__] - The dimensions of the original image are: (20, 20, 4). Data type: uint8.
+2025-05-19 13:47:48,305 - DEBUG - [__init__] - The image does not have an alpha channel.
+2025-05-19 13:47:48,305 - INFO - [__init__] - The dimensions of the original image are: (1531, 2880, 3). Data type: uint8.
+2025-05-19 13:47:48,337 - DEBUG - [detect_vertices] - <src.log_utils.matplotlib_visualizer.MatplotlibVisualizer object at 0x0000018EA3B8C1D0>
+2025-05-19 13:47:48,371 - DEBUG - [validate_inputs] - Inputs validated.
+2025-05-19 13:47:48,373 - INFO - [detect_vertices] - 
+
+Now detecting vertices in the diagram.
+2025-05-19 13:47:48,373 - DEBUG - [detect_vertices] - The dimensions of the template image are: (20, 20, 3)
+2025-05-19 13:47:48,373 - INFO - [apply_template_matching] - 
+
+Now detecting ports in the diagram.
+2025-05-19 13:47:50,807 - INFO - [detect_vertices] - Found 25 matching pixels of the vertex with a threshold of 0.4
+2025-05-19 13:47:50,826 - INFO - [detect_vertices] - Found 5 vertices
+2025-05-19 13:47:50,861 - INFO - [store_geometric_shape_collection] - Stored data for displayableObject input.svg of class BoundingBoxCollection: [BoundingBox(x=1574, y=1078, width=23, height=23), BoundingBox(x=1574, y=658, width=23, height=23), BoundingBox(x=1144, y=658, width=23, height=23), BoundingBox(x=1144, y=628, width=23, height=23), BoundingBox(x=1574, y=207, width=23, height=23)]
+2025-05-19 13:47:50,861 - DEBUG - [detect_vertices] - Bounding boxes: [BoundingBox(x=1574, y=1078, width=23, height=23), BoundingBox(x=1574, y=658, width=23, height=23), BoundingBox(x=1144, y=658, width=23, height=23), BoundingBox(x=1144, y=628, width=23, height=23), BoundingBox(x=1574, y=207, width=23, height=23)]
+2025-05-19 13:47:50,870 - DEBUG - [__init__] - The image has an alpha channel.
+2025-05-19 13:47:50,870 - INFO - [__init__] - The dimensions of the original image are: (20, 20, 4). Data type: uint8.
+2025-05-19 13:47:50,872 - DEBUG - [__init__] - The image does not have an alpha channel.
+2025-05-19 13:47:50,872 - INFO - [__init__] - The dimensions of the original image are: (1531, 2880, 3). Data type: uint8.
+2025-05-19 13:47:50,911 - DEBUG - [detect_vertices] - <src.log_utils.matplotlib_visualizer.MatplotlibVisualizer object at 0x0000018EA3B8C1D0>
+2025-05-19 13:47:50,951 - DEBUG - [validate_inputs] - Inputs validated.
+2025-05-19 13:47:50,953 - INFO - [detect_vertices] - 
+
+Now detecting vertices in the diagram.
+2025-05-19 13:47:50,953 - DEBUG - [detect_vertices] - The dimensions of the template image are: (20, 20, 3)
+2025-05-19 13:47:50,953 - INFO - [apply_template_matching] - 
+
+Now detecting ports in the diagram.
+2025-05-19 13:47:53,343 - INFO - [detect_vertices] - Found 60 matching pixels of the vertex with a threshold of 0.4
+2025-05-19 13:47:53,375 - INFO - [detect_vertices] - Found 5 vertices
+2025-05-19 13:47:53,413 - INFO - [store_geometric_shape_collection] - Stored data for displayableObject output.svg of class BoundingBoxCollection: [BoundingBox(x=894, y=852, width=24, height=25), BoundingBox(x=1324, y=687, width=24, height=25), BoundingBox(x=1324, y=657, width=24, height=25), BoundingBox(x=1324, y=627, width=24, height=25), BoundingBox(x=894, y=402, width=24, height=25)]
+2025-05-19 13:47:53,418 - DEBUG - [detect_vertices] - Bounding boxes: [BoundingBox(x=894, y=852, width=24, height=25), BoundingBox(x=1324, y=687, width=24, height=25), BoundingBox(x=1324, y=657, width=24, height=25), BoundingBox(x=1324, y=627, width=24, height=25), BoundingBox(x=894, y=402, width=24, height=25)]
+2025-05-19 13:47:53,453 - INFO - [finalize_parsing] - Finished diagram parsing.
+2025-05-19 13:47:53,454 - DEBUG - [finalize_parsing] - {'text': TextBoxCollection(displayableObject='text', data=[TextBox(x=1508, y=192, width=54, height=17, text='Input 1', confidence=98.77162170410156), TextBox(x=1597, y=370, width=147, height=14, text='Task Actor Locked', confidence=99.8463134765625), TextBox(x=926, y=417, width=72, height=18, text='Output A', confidence=99.8525390625), TextBox(x=707, y=594, width=206, height=15, text='Task Sensor Close Button', confidence=99.76229095458984), TextBox(x=1078, y=642, width=56, height=18, text='Input 2', confidence=98.90955352783203), TextBox(x=1356, y=642, width=71, height=18, text='Output B', confidence=99.64815521240234), TextBox(x=1078, y=672, width=56, height=17, text='Input 3', confidence=98.74578857421875), TextBox(x=1356, y=672, width=71, height=18, text='Output C', confidence=99.2811050415039), TextBox(x=1507, y=672, width=57, height=18, text='Input 4', confidence=99.14292907714844), TextBox(x=1356, y=702, width=70, height=18, text='Output E', confidence=99.85159301757812), TextBox(x=1143, y=820, width=194, height=18, text='Task Door System Logic', confidence=99.81011199951172), TextBox(x=1588, y=850, width=163, height=14, text='Task Actor Unlocked', confidence=99.87680053710938), TextBox(x=926, y=867, width=71, height=17, text='Output D', confidence=99.9390869140625), TextBox(x=708, y=1045, width=206, height=18, text='Task Sensor Open Button', confidence=99.90545654296875), TextBox(x=1508, y=1092, width=56, height=18, text='Input 5', confidence=99.2455825805664), TextBox(x=1561, y=1270, width=218, height=19, text='Task System Logic Logging', confidence=99.91233825683594)]), 'edge': PolygonalChainCollection(displayableObject='edge', data=[PolygonalChain(points=[(np.int32(1572), np.int32(1088)), (np.int32(1463), np.int32(1088)), (np.int32(1460), np.int32(1084)), (np.int32(1460), np.int32(702)), (np.int32(1456), np.int32(698)), (np.int32(1347), np.int32(698))]), PolygonalChain(points=[(np.int32(917), np.int32(863)), (np.int32(1026), np.int32(863)), (np.int32(1030), np.int32(859)), (np.int32(1030), np.int32(672)), (np.int32(1033), np.int32(668)), (np.int32(1142), np.int32(668))]), PolygonalChain(points=[(np.int32(1142), np.int32(638)), (np.int32(1033), np.int32(638)), (np.int32(1030), np.int32(634)), (np.int32(1030), np.int32(417)), (np.int32(1026), np.int32(413)), (np.int32(917), np.int32(413))]), PolygonalChain(points=[(np.int32(1347), np.int32(638)), (np.int32(1456), np.int32(638)), (np.int32(1460), np.int32(634)), (np.int32(1460), np.int32(192)), (np.int32(1463), np.int32(188)), (np.int32(1572), np.int32(188))]), PolygonalChain(points=[(np.int32(1347), np.int32(668)), (np.int32(1572), np.int32(668))])], width=4), 'task.svg': BoundingBoxCollection(displayableObject='task.svg', data=[BoundingBox(x=1579, y=1058, width=183, height=203), BoundingBox(x=719, y=833, width=183, height=203), BoundingBox(x=1579, y=638, width=183, height=203), BoundingBox(x=1149, y=608, width=183, height=203), BoundingBox(x=719, y=383, width=183, height=203), BoundingBox(x=1579, y=157, width=183, height=204)]), 'input.svg': BoundingBoxCollection(displayableObject='input.svg', data=[BoundingBox(x=1574, y=1078, width=23, height=23), BoundingBox(x=1574, y=658, width=23, height=23), BoundingBox(x=1144, y=658, width=23, height=23), BoundingBox(x=1144, y=628, width=23, height=23), BoundingBox(x=1574, y=207, width=23, height=23)]), 'output.svg': BoundingBoxCollection(displayableObject='output.svg', data=[BoundingBox(x=894, y=852, width=24, height=25), BoundingBox(x=1324, y=687, width=24, height=25), BoundingBox(x=1324, y=657, width=24, height=25), BoundingBox(x=1324, y=627, width=24, height=25), BoundingBox(x=894, y=402, width=24, height=25)])}
+2025-05-19 13:47:54,894 - INFO - [get_detected_elements_bounding_rectangle_excluding_text] - Bounding rectangle excluding text: (719, 157, 1044, 1105)
+2025-05-19 13:47:54,952 - DEBUG - [find_undetected_elements] - All vis errors: []
+2025-05-19 13:47:54,955 - INFO - [__init__] - Composition tree instantiated.
+2025-05-19 13:47:54,958 - INFO - [query_top_level_elements] - Syntactical Analysis: top level token types: ['edge', 'task.svg']
+2025-05-19 13:47:54,960 - INFO - [query_parent_child_rules] - Syntactical Analysis: parent child rules SubVertices and Labels: [{'parent': 'task.svg', 'child': 'input.svg', 'positioning': 'WEST', 'x_offset': 15.0, 'y_offset': 0.0, 'name': 'Input'}, {'parent': 'task.svg', 'child': 'output.svg', 'positioning': 'EAST', 'x_offset': -5.0, 'y_offset': 0.0, 'name': 'Output'}, {'parent': 'task.svg', 'child': 'text', 'positioning': 'SOUTH', 'x_offset': 0, 'y_offset': 14, 'name': 'Taskname'}, {'parent': 'input.svg', 'child': 'text', 'positioning': 'WEST', 'x_offset': -10, 'y_offset': 12, 'name': None}, {'parent': 'output.svg', 'child': 'text', 'positioning': 'EAST', 'x_offset': 10, 'y_offset': 12, 'name': None}]
+2025-05-19 13:47:54,960 - DEBUG - [store_parent_child_relations] - Result of syntax rule: task.svg <>- input.svg WestPositioningRule(threshold=7, x_offset=15.0, y_offset=0.0): [{'parent': ['task.svg', 0], 'child': ['input.svg', 0]}, {'parent': ['task.svg', 2], 'child': ['input.svg', 1]}, {'parent': ['task.svg', 3], 'child': ['input.svg', 2]}, {'parent': ['task.svg', 3], 'child': ['input.svg', 3]}, {'parent': ['task.svg', 5], 'child': ['input.svg', 4]}]
+2025-05-19 13:47:54,960 - DEBUG - [store_parent_child_relations] - Result of syntax rule: task.svg <>- output.svg EastPositioningRule(threshold=7, x_offset=-5.0, y_offset=0.0): [{'parent': ['task.svg', 1], 'child': ['output.svg', 0]}, {'parent': ['task.svg', 3], 'child': ['output.svg', 1]}, {'parent': ['task.svg', 3], 'child': ['output.svg', 2]}, {'parent': ['task.svg', 3], 'child': ['output.svg', 3]}, {'parent': ['task.svg', 4], 'child': ['output.svg', 4]}]
+2025-05-19 13:47:54,960 - DEBUG - [store_parent_child_relations] - Result of syntax rule: task.svg <>- text SouthPositioningRule(threshold=7, x_offset=0, y_offset=14): [{'parent': ['task.svg', 5], 'child': ['text', 1]}, {'parent': ['task.svg', 4], 'child': ['text', 3]}, {'parent': ['task.svg', 3], 'child': ['text', 10]}, {'parent': ['task.svg', 2], 'child': ['text', 11]}, {'parent': ['task.svg', 1], 'child': ['text', 13]}, {'parent': ['task.svg', 0], 'child': ['text', 15]}]
+2025-05-19 13:47:54,960 - DEBUG - [store_parent_child_relations] - Result of syntax rule: input.svg <>- text WestPositioningRule(threshold=7, x_offset=-10, y_offset=12): [{'parent': ['input.svg', 3], 'child': ['text', 4]}, {'parent': ['input.svg', 2], 'child': ['text', 6]}, {'parent': ['input.svg', 1], 'child': ['text', 8]}, {'parent': ['input.svg', 0], 'child': ['text', 14]}]
+2025-05-19 13:47:54,960 - DEBUG - [store_parent_child_relations] - Result of syntax rule: output.svg <>- text EastPositioningRule(threshold=7, x_offset=10, y_offset=12): [{'parent': ['output.svg', 4], 'child': ['text', 2]}, {'parent': ['output.svg', 3], 'child': ['text', 5]}, {'parent': ['output.svg', 2], 'child': ['text', 7]}, {'parent': ['output.svg', 1], 'child': ['text', 9]}, {'parent': ['output.svg', 0], 'child': ['text', 12]}]
+2025-05-19 13:47:54,960 - DEBUG - [apply_store_pairings_parent_child_rules] - Parent child pairings: 25 Pairings: [(['task.svg', 0], ['input.svg', 0]), (['task.svg', 2], ['input.svg', 1]), (['task.svg', 3], ['input.svg', 2]), (['task.svg', 3], ['input.svg', 3]), (['task.svg', 5], ['input.svg', 4]), (['task.svg', 1], ['output.svg', 0]), (['task.svg', 3], ['output.svg', 1]), (['task.svg', 3], ['output.svg', 2]), (['task.svg', 3], ['output.svg', 3]), (['task.svg', 4], ['output.svg', 4]), (['task.svg', 5], ['text', 1]), (['task.svg', 4], ['text', 3]), (['task.svg', 3], ['text', 10]), (['task.svg', 2], ['text', 11]), (['task.svg', 1], ['text', 13]), (['task.svg', 0], ['text', 15]), (['input.svg', 3], ['text', 4]), (['input.svg', 2], ['text', 6]), (['input.svg', 1], ['text', 8]), (['input.svg', 0], ['text', 14]), (['output.svg', 4], ['text', 2]), (['output.svg', 3], ['text', 5]), (['output.svg', 2], ['text', 7]), (['output.svg', 1], ['text', 9]), (['output.svg', 0], ['text', 12])]
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked edge[0] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked edge[1] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked edge[2] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked edge[3] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked edge[4] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Result of syntax rule: top level, root <>- edge: [{'parent': ['root', 0], 'child': ['edge', 0]}, {'parent': ['root', 0], 'child': ['edge', 1]}, {'parent': ['root', 0], 'child': ['edge', 2]}, {'parent': ['root', 0], 'child': ['edge', 3]}, {'parent': ['root', 0], 'child': ['edge', 4]}]
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked task.svg[0] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked task.svg[1] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked task.svg[2] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked task.svg[3] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked task.svg[4] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Marked task.svg[5] as top level.
+2025-05-19 13:47:54,960 - DEBUG - [store_root_child_relations] - Result of syntax rule: top level, root <>- task.svg: [{'parent': ['root', 0], 'child': ['task.svg', 0]}, {'parent': ['root', 0], 'child': ['task.svg', 1]}, {'parent': ['root', 0], 'child': ['task.svg', 2]}, {'parent': ['root', 0], 'child': ['task.svg', 3]}, {'parent': ['root', 0], 'child': ['task.svg', 4]}, {'parent': ['root', 0], 'child': ['task.svg', 5]}]
+2025-05-19 13:47:54,960 - INFO - [retrieve_syntax_pairings] - All pairings: 36 Pairings: [(['task.svg', 0], ['input.svg', 0]), (['task.svg', 2], ['input.svg', 1]), (['task.svg', 3], ['input.svg', 2]), (['task.svg', 3], ['input.svg', 3]), (['task.svg', 5], ['input.svg', 4]), (['task.svg', 1], ['output.svg', 0]), (['task.svg', 3], ['output.svg', 1]), (['task.svg', 3], ['output.svg', 2]), (['task.svg', 3], ['output.svg', 3]), (['task.svg', 4], ['output.svg', 4]), (['task.svg', 5], ['text', 1]), (['task.svg', 4], ['text', 3]), (['task.svg', 3], ['text', 10]), (['task.svg', 2], ['text', 11]), (['task.svg', 1], ['text', 13]), (['task.svg', 0], ['text', 15]), (['input.svg', 3], ['text', 4]), (['input.svg', 2], ['text', 6]), (['input.svg', 1], ['text', 8]), (['input.svg', 0], ['text', 14]), (['output.svg', 4], ['text', 2]), (['output.svg', 3], ['text', 5]), (['output.svg', 2], ['text', 7]), (['output.svg', 1], ['text', 9]), (['output.svg', 0], ['text', 12]), (['root', 0], ['edge', 0]), (['root', 0], ['edge', 1]), (['root', 0], ['edge', 2]), (['root', 0], ['edge', 3]), (['root', 0], ['edge', 4]), (['root', 0], ['task.svg', 0]), (['root', 0], ['task.svg', 1]), (['root', 0], ['task.svg', 2]), (['root', 0], ['task.svg', 3]), (['root', 0], ['task.svg', 4]), (['root', 0], ['task.svg', 5])]
+2025-05-19 13:47:54,960 - DEBUG - [store_all_edges] - Checking if edges are connected to these shapedObjects/vertices: ['task.svg', 'input.svg', 'output.svg']
+2025-05-19 13:47:54,960 - DEBUG - [add_anchor] - EdgeStorageDict.add_anchor: Created edge ('edge', 0).
+2025-05-19 13:47:54,960 - DEBUG - [_add_edge_anchors] - Edge.add_anchor: Added anchor ('input.svg', 0) to ('edge', 0).
+2025-05-19 13:47:54,960 - DEBUG - [_add_edge_anchors] - Edge.add_anchor: Added anchor ('output.svg', 1) to ('edge', 0).
+2025-05-19 13:47:54,960 - DEBUG - [add_anchor] - EdgeStorageDict.add_anchor: Created edge ('edge', 1).
+2025-05-19 13:47:54,960 - DEBUG - [_add_edge_anchors] - Edge.add_anchor: Added anchor ('output.svg', 0) to ('edge', 1).
+2025-05-19 13:47:54,960 - DEBUG - [_add_edge_anchors] - Edge.add_anchor: Added anchor ('input.svg', 2) to ('edge', 1).
+2025-05-19 13:47:54,973 - DEBUG - [add_anchor] - EdgeStorageDict.add_anchor: Created edge ('edge', 2).
+2025-05-19 13:47:54,974 - DEBUG - [_add_edge_anchors] - Edge.add_anchor: Added anchor ('input.svg', 3) to ('edge', 2).
+2025-05-19 13:47:54,974 - DEBUG - [_add_edge_anchors] - Edge.add_anchor: Added anchor ('output.svg', 4) to ('edge', 2).
+2025-05-19 13:47:54,974 - DEBUG - [add_anchor] - EdgeStorageDict.add_anchor: Created edge ('edge', 3).
+2025-05-19 13:47:54,974 - DEBUG - [_add_edge_anchors] - Edge.add_anchor: Added anchor ('output.svg', 3) to ('edge', 3).
+2025-05-19 13:47:54,976 - WARNING - [_add_edge_anchors] - WARNING: No end vertex found for edge ('edge', 3).
+2025-05-19 13:47:54,976 - DEBUG - [add_anchor] - EdgeStorageDict.add_anchor: Created edge ('edge', 4).
+2025-05-19 13:47:54,976 - DEBUG - [_add_edge_anchors] - Edge.add_anchor: Added anchor ('output.svg', 2) to ('edge', 4).
+2025-05-19 13:47:54,976 - DEBUG - [_add_edge_anchors] - Edge.add_anchor: Added anchor ('input.svg', 1) to ('edge', 4).
+2025-05-19 13:47:54,976 - DEBUG - [store_all_edges] - All edges: [Edge(displayableObject=('edge', 0), anchors={'input.svg': [('input.svg', 0)], 'output.svg': [('output.svg', 1)]}), Edge(displayableObject=('edge', 1), anchors={'output.svg': [('output.svg', 0)], 'input.svg': [('input.svg', 2)]}), Edge(displayableObject=('edge', 2), anchors={'input.svg': [('input.svg', 3)], 'output.svg': [('output.svg', 4)]}), Edge(displayableObject=('edge', 3), anchors={'output.svg': [('output.svg', 3)]}), Edge(displayableObject=('edge', 4), anchors={'output.svg': [('output.svg', 2)], 'input.svg': [('input.svg', 1)]})]
+2025-05-19 13:47:54,976 - WARNING - [check_all_elements_in_tree] - WARNING: error in syntax: token ['text', 0] is missing a parent element.
+2025-05-19 13:47:54,976 - DEBUG - [check_all_elements_in_tree] - All vis errors (up to now only missingParent): [VisErrorEOQ: missingParent, ['text', 0], (1508, 192, 54, 17), None]
+2025-05-19 13:47:54,976 - INFO - [find_tokens_without_parents] - List of elements without parent: [['text', 0]]
+2025-05-19 13:47:55,679 - INFO - [visualize_elements_without_parent] - Finished visualization of syntax check / elements without parents.
+2025-05-19 13:47:57,251 - INFO - [instantiate_eoq] - instantiate eoq, xgee mode: True
+2025-05-19 13:47:57,251 - INFO - [instantiate_eoq] - ==================== Instantiating User-model with EOQ
+2025-05-19 13:47:57,251 - DEBUG - [__init__] - ModelInstantiatorEoq: <src.diagram_recognition.syntactical_analysis.pairing_storage_lst.PairingStorageLst object at 0x0000018EDA74EAE0>, <src.diagram_recognition.diagram_tokenization.geometric_data_storage_list.GeometricDataStorageList object at 0x0000018EA3ACFBC0>, True
+2025-05-19 13:47:57,251 - DEBUG - [__init__] - Create template path: .vvt\templates\emptyOaamTemplate.oaam
+2025-05-19 13:47:57,251 - INFO - [get_or_create_instantiation_domain_and_model_root] - Operating as an XGEE action. Connecting to existing EOQ domain.
+2025-05-19 13:47:57,251 - DEBUG - [_copy_template] - Parent dirs: ['.vvt', 'templates']
+2025-05-19 13:47:57,251 - DEBUG - [_copy_template] - Response of Get query for copying template: #319
+2025-05-19 13:47:57,251 - DEBUG - [_copy_template] - Response of Get query for vvt-recognized-models: #19
+2025-05-19 13:47:57,251 - DEBUG - [_copy_template] - Compound command for copying template for model instantiation: CMP GET (/subdirectories{(/name=.vvt)}:0/subdirectories{(/name=templates)}:0/resources{(/name=emptyOaamTemplate.oaam)}:0) GET ($-1/contents:0) CLO ($-1) FUL CRN http://www.eoq.de/workspacemdbmodel/v1.0 ModelResource 1 [] SET ($-1) name recognized_model_20250519_134757.oaam ADD ($-2) contents ($-3) ADD (#0/subdirectories{(/name=vvt-recognized-models)}:0) resources ($-3)
+2025-05-19 13:47:57,276 - DEBUG - [_copy_template] - Response of compound command model instantiation: [#319, #320, #816, #817, [#817, 'name', 'recognized_model_20250519_134757.oaam'], [#817, 'contents', #816], [#19, 'resources', #817]]
+2025-05-19 13:47:57,276 - INFO - [get_or_create_instantiation_domain_and_model_root] - Template copied. Architecture Object: #816
+2025-05-19 13:47:57,282 - DEBUG - [_fetch_editor_root_em] - Data for editor root instantiation: containing feature: functions, class: Functions, package: http://www.oaam.de/oaam/model/v160/functions
+2025-05-19 13:47:57,285 - DEBUG - [_instantiate_editor_root_instantiation] - CRN http://www.oaam.de/oaam/model/v160/functions Functions 1: #818
+2025-05-19 13:47:57,285 - DEBUG - [_instantiate_editor_root_instantiation] - SET #816 functions #818
+2025-05-19 13:47:57,285 - INFO - [_instantiate_editor_root_instantiation] - Instantiated editor root: #818
+2025-05-19 13:47:57,290 - DEBUG - [_fetch_displayable_object_em_hierarchy_instantiation] - Edges editorModel before querying classes: [{'displayable_object': 'edge', 'feature_name': 'signals', 'queryStr': '/signals', 'name': 'Signal', 'parent_feature_name': None, 'is_top_level': True}]
+2025-05-19 13:47:57,292 - DEBUG - [_fetch_displayable_object_em_hierarchy_instantiation] - Shaped objects editorModel before querying classes: [{'displayable_object': 'task.svg', 'feature_name': 'tasks', 'name': 'Task', 'parent_feature_name': None, 'is_top_level': True}, {'displayable_object': 'input.svg', 'feature_name': 'inputs', 'name': 'Input', 'parent_feature_name': 'tasks', 'is_top_level': False}, {'displayable_object': 'output.svg', 'feature_name': 'outputs', 'name': 'Output', 'parent_feature_name': 'tasks', 'is_top_level': False}]
+2025-05-19 13:47:57,293 - DEBUG - [_make_dict_unique_by_key_name] - Unique dict for instantiation: [{'displayable_object': 'task.svg', 'feature_name': 'tasks', 'name': 'Task', 'parent_feature_name': None, 'is_top_level': True}, {'displayable_object': 'input.svg', 'feature_name': 'inputs', 'name': 'Input', 'parent_feature_name': 'tasks', 'is_top_level': False}, {'displayable_object': 'output.svg', 'feature_name': 'outputs', 'name': 'Output', 'parent_feature_name': 'tasks', 'is_top_level': False}]
+2025-05-19 13:47:57,294 - DEBUG - [_fetch_displayable_object_em_hierarchy_instantiation] - Shaped objects editorModel after uniqueness: [{'displayable_object': 'task.svg', 'feature_name': 'tasks', 'name': 'Task', 'parent_feature_name': None, 'is_top_level': True}, {'displayable_object': 'input.svg', 'feature_name': 'inputs', 'name': 'Input', 'parent_feature_name': 'tasks', 'is_top_level': False}, {'displayable_object': 'output.svg', 'feature_name': 'outputs', 'name': 'Output', 'parent_feature_name': 'tasks', 'is_top_level': False}]
+2025-05-19 13:47:57,294 - DEBUG - [_fetch_displayable_object_em_hierarchy_instantiation] - Displayable objects editorModel before querying classes: [{'displayable_object': 'task.svg', 'feature_name': 'tasks', 'name': 'Task', 'parent_feature_name': None, 'is_top_level': True}, {'displayable_object': 'input.svg', 'feature_name': 'inputs', 'name': 'Input', 'parent_feature_name': 'tasks', 'is_top_level': False}, {'displayable_object': 'output.svg', 'feature_name': 'outputs', 'name': 'Output', 'parent_feature_name': 'tasks', 'is_top_level': False}, {'displayable_object': 'edge', 'feature_name': 'signals', 'queryStr': '/signals', 'name': 'Signal', 'parent_feature_name': None, 'is_top_level': True}]
+2025-05-19 13:47:57,299 - DEBUG - [_fetch_displayable_object_em_hierarchy_instantiation] - Displayable objects editorModel after querying top level classes: [{'displayable_object': 'task.svg', 'feature_name': 'tasks', 'name': 'Task', 'parent_feature_name': None, 'is_top_level': True, 'classname': 'Task', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions'}, {'displayable_object': 'input.svg', 'feature_name': 'inputs', 'name': 'Input', 'parent_feature_name': 'tasks', 'is_top_level': False}, {'displayable_object': 'output.svg', 'feature_name': 'outputs', 'name': 'Output', 'parent_feature_name': 'tasks', 'is_top_level': False}, {'displayable_object': 'edge', 'feature_name': 'signals', 'queryStr': '/signals', 'name': 'Signal', 'parent_feature_name': None, 'is_top_level': True, 'classname': 'Signal', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions'}]
+2025-05-19 13:47:57,299 - DEBUG - [_fetch_displayable_object_em_hierarchy_instantiation] - Displayable objects editorModel for hierarchy instantiation: [{'displayable_object': 'task.svg', 'feature_name': 'tasks', 'name': 'Task', 'parent_feature_name': None, 'is_top_level': True, 'classname': 'Task', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions'}, {'displayable_object': 'input.svg', 'feature_name': 'inputs', 'name': 'Input', 'parent_feature_name': 'tasks', 'is_top_level': False, 'classname': 'Input', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions'}, {'displayable_object': 'output.svg', 'feature_name': 'outputs', 'name': 'Output', 'parent_feature_name': 'tasks', 'is_top_level': False, 'classname': 'Output', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions'}, {'displayable_object': 'edge', 'feature_name': 'signals', 'queryStr': '/signals', 'name': 'Signal', 'parent_feature_name': None, 'is_top_level': True, 'classname': 'Signal', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions'}]
+2025-05-19 13:47:57,299 - INFO - [_fetch_displayable_object_em_hierarchy_instantiation] - displayable_objects editorModel for instantiation: {'task.svg': {'displayable_object': 'task.svg', 'feature_name': 'tasks', 'name': 'Task', 'parent_feature_name': None, 'is_top_level': True, 'classname': 'Task', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions'}, 'input.svg': {'displayable_object': 'input.svg', 'feature_name': 'inputs', 'name': 'Input', 'parent_feature_name': 'tasks', 'is_top_level': False, 'classname': 'Input', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions'}, 'output.svg': {'displayable_object': 'output.svg', 'feature_name': 'outputs', 'name': 'Output', 'parent_feature_name': 'tasks', 'is_top_level': False, 'classname': 'Output', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions'}, 'edge': {'displayable_object': 'edge', 'feature_name': 'signals', 'queryStr': '/signals', 'name': 'Signal', 'parent_feature_name': None, 'is_top_level': True, 'classname': 'Signal', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions'}}
+2025-05-19 13:47:57,299 - INFO - [_instantiate_hierarchy_instantiation] - Pairings sorted, input for instantiation: [(('root', 0), ('edge', 0)), (('root', 0), ('edge', 1)), (('root', 0), ('edge', 2)), (('root', 0), ('edge', 3)), (('root', 0), ('edge', 4)), (('root', 0), ('task.svg', 0)), (('root', 0), ('task.svg', 1)), (('root', 0), ('task.svg', 2)), (('root', 0), ('task.svg', 3)), (('root', 0), ('task.svg', 4)), (('root', 0), ('task.svg', 5)), (('task.svg', 0), ('input.svg', 0)), (('task.svg', 0), ('text', 15)), (('task.svg', 1), ('output.svg', 0)), (('task.svg', 1), ('text', 13)), (('task.svg', 2), ('input.svg', 1)), (('task.svg', 2), ('text', 11)), (('task.svg', 3), ('input.svg', 2)), (('task.svg', 3), ('input.svg', 3)), (('task.svg', 3), ('output.svg', 1)), (('task.svg', 3), ('output.svg', 2)), (('task.svg', 3), ('output.svg', 3)), (('task.svg', 3), ('text', 10)), (('task.svg', 4), ('output.svg', 4)), (('task.svg', 4), ('text', 3)), (('task.svg', 5), ('input.svg', 4)), (('task.svg', 5), ('text', 1)), (('input.svg', 0), ('text', 14)), (('output.svg', 0), ('text', 12)), (('input.svg', 1), ('text', 8)), (('input.svg', 2), ('text', 6)), (('input.svg', 3), ('text', 4)), (('output.svg', 1), ('text', 9)), (('output.svg', 2), ('text', 7)), (('output.svg', 3), ('text', 5)), (('output.svg', 4), ('text', 2))]
+2025-05-19 13:47:57,299 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> edge[0]
+2025-05-19 13:47:57,299 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Signal 1: #820
+2025-05-19 13:47:57,299 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #820
+2025-05-19 13:47:57,299 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> edge[1]
+2025-05-19 13:47:57,299 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Signal 1: #821
+2025-05-19 13:47:57,299 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #821
+2025-05-19 13:47:57,299 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> edge[2]
+2025-05-19 13:47:57,299 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Signal 1: #822
+2025-05-19 13:47:57,314 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #822
+2025-05-19 13:47:57,314 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> edge[3]
+2025-05-19 13:47:57,314 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Signal 1: #823
+2025-05-19 13:47:57,314 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #823
+2025-05-19 13:47:57,314 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> edge[4]
+2025-05-19 13:47:57,319 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Signal 1: #824
+2025-05-19 13:47:57,319 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #824
+2025-05-19 13:47:57,319 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> task.svg[0]
+2025-05-19 13:47:57,319 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Task 1: #825
+2025-05-19 13:47:57,319 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #825
+2025-05-19 13:47:57,319 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> task.svg[1]
+2025-05-19 13:47:57,319 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Task 1: #826
+2025-05-19 13:47:57,319 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #826
+2025-05-19 13:47:57,319 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> task.svg[2]
+2025-05-19 13:47:57,330 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Task 1: #827
+2025-05-19 13:47:57,330 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #827
+2025-05-19 13:47:57,330 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> task.svg[3]
+2025-05-19 13:47:57,330 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Task 1: #828
+2025-05-19 13:47:57,330 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #828
+2025-05-19 13:47:57,330 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> task.svg[4]
+2025-05-19 13:47:57,337 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Task 1: #829
+2025-05-19 13:47:57,337 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #829
+2025-05-19 13:47:57,337 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: root[0] -> task.svg[5]
+2025-05-19 13:47:57,341 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Task 1: #830
+2025-05-19 13:47:57,341 - DEBUG - [_instantiate_parent_child_pairing] - ADD #818 child['feature_name'] #830
+2025-05-19 13:47:57,341 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[0] -> input.svg[0]
+2025-05-19 13:47:57,346 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Input 1: #831
+2025-05-19 13:47:57,346 - DEBUG - [_instantiate_parent_child_pairing] - ADD #825 child['feature_name'] #831
+2025-05-19 13:47:57,346 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[0] -> text[15]
+2025-05-19 13:47:57,346 - DEBUG - [_pairing_set_name] - SET #825 name System Logic Logging
+2025-05-19 13:47:57,346 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[1] -> output.svg[0]
+2025-05-19 13:47:57,354 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Output 1: #832
+2025-05-19 13:47:57,354 - DEBUG - [_instantiate_parent_child_pairing] - ADD #826 child['feature_name'] #832
+2025-05-19 13:47:57,354 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[1] -> text[13]
+2025-05-19 13:47:57,354 - DEBUG - [_pairing_set_name] - SET #826 name Sensor Open Button
+2025-05-19 13:47:57,354 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[2] -> input.svg[1]
+2025-05-19 13:47:57,354 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Input 1: #833
+2025-05-19 13:47:57,361 - DEBUG - [_instantiate_parent_child_pairing] - ADD #827 child['feature_name'] #833
+2025-05-19 13:47:57,361 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[2] -> text[11]
+2025-05-19 13:47:57,362 - DEBUG - [_pairing_set_name] - SET #827 name Actor Unlocked
+2025-05-19 13:47:57,362 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[3] -> input.svg[2]
+2025-05-19 13:47:57,366 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Input 1: #834
+2025-05-19 13:47:57,366 - DEBUG - [_instantiate_parent_child_pairing] - ADD #828 child['feature_name'] #834
+2025-05-19 13:47:57,366 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[3] -> input.svg[3]
+2025-05-19 13:47:57,366 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Input 1: #835
+2025-05-19 13:47:57,366 - DEBUG - [_instantiate_parent_child_pairing] - ADD #828 child['feature_name'] #835
+2025-05-19 13:47:57,366 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[3] -> output.svg[1]
+2025-05-19 13:47:57,366 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Output 1: #836
+2025-05-19 13:47:57,366 - DEBUG - [_instantiate_parent_child_pairing] - ADD #828 child['feature_name'] #836
+2025-05-19 13:47:57,366 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[3] -> output.svg[2]
+2025-05-19 13:47:57,375 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Output 1: #837
+2025-05-19 13:47:57,375 - DEBUG - [_instantiate_parent_child_pairing] - ADD #828 child['feature_name'] #837
+2025-05-19 13:47:57,375 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[3] -> output.svg[3]
+2025-05-19 13:47:57,378 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Output 1: #838
+2025-05-19 13:47:57,379 - DEBUG - [_instantiate_parent_child_pairing] - ADD #828 child['feature_name'] #838
+2025-05-19 13:47:57,379 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[3] -> text[10]
+2025-05-19 13:47:57,379 - DEBUG - [_pairing_set_name] - SET #828 name Door System Logic
+2025-05-19 13:47:57,379 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[4] -> output.svg[4]
+2025-05-19 13:47:57,379 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Output 1: #839
+2025-05-19 13:47:57,379 - DEBUG - [_instantiate_parent_child_pairing] - ADD #829 child['feature_name'] #839
+2025-05-19 13:47:57,379 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[4] -> text[3]
+2025-05-19 13:47:57,379 - DEBUG - [_pairing_set_name] - SET #829 name Sensor Close Button
+2025-05-19 13:47:57,379 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[5] -> input.svg[4]
+2025-05-19 13:47:57,379 - DEBUG - [_instantiate_parent_child_pairing] - CRN http://www.oaam.de/oaam/model/v160/functions Input 1: #840
+2025-05-19 13:47:57,379 - DEBUG - [_instantiate_parent_child_pairing] - ADD #830 child['feature_name'] #840
+2025-05-19 13:47:57,379 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: task.svg[5] -> text[1]
+2025-05-19 13:47:57,394 - DEBUG - [_pairing_set_name] - SET #830 name Actor Locked
+2025-05-19 13:47:57,394 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: input.svg[0] -> text[14]
+2025-05-19 13:47:57,394 - DEBUG - [_pairing_set_name] - SET #831 name 5
+2025-05-19 13:47:57,394 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: output.svg[0] -> text[12]
+2025-05-19 13:47:57,394 - DEBUG - [_pairing_set_name] - SET #832 name D
+2025-05-19 13:47:57,394 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: input.svg[1] -> text[8]
+2025-05-19 13:47:57,394 - DEBUG - [_pairing_set_name] - SET #833 name 4
+2025-05-19 13:47:57,403 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: input.svg[2] -> text[6]
+2025-05-19 13:47:57,403 - DEBUG - [_pairing_set_name] - SET #834 name 3
+2025-05-19 13:47:57,403 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: input.svg[3] -> text[4]
+2025-05-19 13:47:57,408 - DEBUG - [_pairing_set_name] - SET #835 name 2
+2025-05-19 13:47:57,408 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: output.svg[1] -> text[9]
+2025-05-19 13:47:57,409 - DEBUG - [_pairing_set_name] - SET #836 name E
+2025-05-19 13:47:57,409 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: output.svg[2] -> text[7]
+2025-05-19 13:47:57,410 - DEBUG - [_pairing_set_name] - SET #837 name C
+2025-05-19 13:47:57,410 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: output.svg[3] -> text[5]
+2025-05-19 13:47:57,410 - DEBUG - [_pairing_set_name] - SET #838 name B
+2025-05-19 13:47:57,410 - DEBUG - [_process_parent_child_pairing] - Instantiating parent-child pairing: output.svg[4] -> text[2]
+2025-05-19 13:47:57,410 - DEBUG - [_pairing_set_name] - SET #839 name A
+2025-05-19 13:47:57,410 - INFO - [_instantiate_hierarchy_instantiation] - Hierarchy instantiation completed.
+2025-05-19 13:47:57,410 - INFO - [instantiate_eoq] - Now running model-driven association instantiation, only tested for OAAM Functions
+2025-05-19 13:47:57,410 - DEBUG - [_fetch_edges_em_association_instantiation] - Result of query for anchors: [['Source Task Output', '/source'], ['Target Task Input', "/'targets'"]]
+2025-05-19 13:47:57,410 - INFO - [_fetch_edges_em_association_instantiation] - Edge_em after querying anchors with data from metamodel: [{'displayable_object': 'edge', 'feature_name': 'signals', 'queryStr': '/signals', 'name': 'Signal', 'parent_feature_name': None, 'is_top_level': True, 'classname': 'Signal', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions', 'anchors': [{'feature_name': 'source', 'name': 'Source Task Output', 'isMany': False, 'classname': 'Output', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions', 'displayable_object': 'output.svg'}, {'feature_name': 'targets', 'name': 'Target Task Input', 'isMany': True, 'classname': 'Input', 'package_nsuri': 'http://www.oaam.de/oaam/model/v160/functions', 'displayable_object': 'input.svg'}]}]
+2025-05-19 13:47:57,410 - DEBUG - [_instantiate_associations_instantiation] - Instantiating association diagram edge ('edge', 0) of class Signal, feature: targets to anchor input.svg[0] of class Input
+2025-05-19 13:47:57,410 - DEBUG - [_instantiate_associations_instantiation] - ADD #820 anchor_em_assoc_instantiation['feature_name'] #831
+2025-05-19 13:47:57,410 - DEBUG - [_instantiate_associations_instantiation] - Instantiating association diagram edge ('edge', 0) of class Signal, feature: source to anchor output.svg[1] of class Output
+2025-05-19 13:47:57,424 - DEBUG - [_instantiate_associations_instantiation] - SET #820 anchor_em_assoc_instantiation['feature_name'] #836
+2025-05-19 13:47:57,424 - DEBUG - [_instantiate_associations_instantiation] - Instantiating association diagram edge ('edge', 1) of class Signal, feature: source to anchor output.svg[0] of class Output
+2025-05-19 13:47:57,426 - DEBUG - [_instantiate_associations_instantiation] - SET #821 anchor_em_assoc_instantiation['feature_name'] #832
+2025-05-19 13:47:57,426 - DEBUG - [_instantiate_associations_instantiation] - Instantiating association diagram edge ('edge', 1) of class Signal, feature: targets to anchor input.svg[2] of class Input
+2025-05-19 13:47:57,426 - DEBUG - [_instantiate_associations_instantiation] - ADD #821 anchor_em_assoc_instantiation['feature_name'] #834
+2025-05-19 13:47:57,426 - DEBUG - [_instantiate_associations_instantiation] - Instantiating association diagram edge ('edge', 2) of class Signal, feature: targets to anchor input.svg[3] of class Input
+2025-05-19 13:47:57,426 - DEBUG - [_instantiate_associations_instantiation] - ADD #822 anchor_em_assoc_instantiation['feature_name'] #835
+2025-05-19 13:47:57,426 - DEBUG - [_instantiate_associations_instantiation] - Instantiating association diagram edge ('edge', 2) of class Signal, feature: source to anchor output.svg[4] of class Output
+2025-05-19 13:47:57,433 - DEBUG - [_instantiate_associations_instantiation] - SET #822 anchor_em_assoc_instantiation['feature_name'] #839
+2025-05-19 13:47:57,433 - DEBUG - [_instantiate_associations_instantiation] - Instantiating association diagram edge ('edge', 3) of class Signal, feature: source to anchor output.svg[3] of class Output
+2025-05-19 13:47:57,436 - DEBUG - [_instantiate_associations_instantiation] - SET #823 anchor_em_assoc_instantiation['feature_name'] #838
+2025-05-19 13:47:57,436 - DEBUG - [_instantiate_associations_instantiation] - Instantiating association diagram edge ('edge', 4) of class Signal, feature: source to anchor output.svg[2] of class Output
+2025-05-19 13:47:57,438 - DEBUG - [_instantiate_associations_instantiation] - SET #824 anchor_em_assoc_instantiation['feature_name'] #837
+2025-05-19 13:47:57,440 - DEBUG - [_instantiate_associations_instantiation] - Instantiating association diagram edge ('edge', 4) of class Signal, feature: targets to anchor input.svg[1] of class Input
+2025-05-19 13:47:57,441 - DEBUG - [_instantiate_associations_instantiation] - ADD #824 anchor_em_assoc_instantiation['feature_name'] #833
+2025-05-19 13:47:57,441 - INFO - [instantiate_eoq] - Domain: <eoq2.domain.multiprocessing.multiprocessingdomainclient.MultiprocessingQueueDomainClient object at 0x0000018EE9048620> Recognized model: #818
+2025-05-19 13:47:57,441 - INFO - [verify_visualization] - instantiated domain: <eoq2.domain.multiprocessing.multiprocessingdomainclient.MultiprocessingQueueDomainClient object at 0x0000018EE9048620>, instantiated model: #818
+2025-05-19 13:47:57,441 - DEBUG - [verify_visualization] - original domain: <eoq2.domain.multiprocessing.multiprocessingdomainclient.MultiprocessingQueueDomainClient object at 0x0000018EE9048620>, original model: #33
+2025-05-19 13:47:57,441 - INFO - [compare_original_instantiated_models] - Task.svg detected. Detecting OAAM Functions Layer with full functionality.
+2025-05-19 13:47:57,441 - DEBUG - [__init__] - Instantiating Model Comparer EOQ, Original domain: <eoq2.domain.multiprocessing.multiprocessingdomainclient.MultiprocessingQueueDomainClient object at 0x0000018EE9048620>, original model: #33, recognized domain: <eoq2.domain.multiprocessing.multiprocessingdomainclient.MultiprocessingQueueDomainClient object at 0x0000018EE9048620>, recognized model: #818
+2025-05-19 13:47:57,441 - INFO - [compare_number_top_level_features] - Feature name: tasks. Original model object has 6 tasks, recognized model object has 6 tasks.
+2025-05-19 13:47:57,441 - INFO - [compare_number_top_level_features] - Feature name: signals. Original model object has 5 signals, recognized model object has 5 signals.
+2025-05-19 13:47:57,441 - INFO - [compare_number_instances] - Original model has 5 Inputs, recognized model has 5 Inputs.
+2025-05-19 13:47:57,441 - INFO - [compare_number_instances] - Number of Inputs in the original and recognized model match.
+2025-05-19 13:47:57,441 - INFO - [compare_number_instances] - Original model has 5 Outputs, recognized model has 5 Outputs.
+2025-05-19 13:47:57,441 - INFO - [compare_number_instances] - Number of Outputs in the original and recognized model match.
+2025-05-19 13:47:57,441 - WARNING - [compare_original_instantiated_models] - Starting of Model Comparison. OAAM Functions Layer in XGEE mode. The following python errors are side-effects of the comparison.
+2025-05-19 13:47:57,441 - DEBUG - [compare_task_names] - Number of tasks in original model: 6. Next: compare task names. This will lead to a caught list_index_out_of_range error for every difference.
+2025-05-19 13:47:57,457 - INFO - [compare_task_names] - Task: 0. Original task #238 corresponds to recognized task #828.
+2025-05-19 13:47:57,457 - INFO - [compare_task_names] - Task: 1. Original task #239 corresponds to recognized task #829.
+2025-05-19 13:47:57,462 - INFO - [compare_task_names] - Task: 2. Original task #240 corresponds to recognized task #826.
+2025-05-19 13:47:57,462 - INFO - [compare_task_names] - Task: 3. Original task #241 corresponds to recognized task #830.
+2025-05-19 13:47:57,464 - INFO - [compare_task_names] - Task: 4. Original task #242 corresponds to recognized task #827.
+2025-05-19 13:47:57,466 - INFO - [compare_task_names] - Task: 5. Original task #243 corresponds to recognized task #825.
+2025-05-19 13:47:57,466 - INFO - [compare_task_names] - Mapping original tasks -> recognized tasks: [(238, 828), (239, 829), (240, 826), (241, 830), (242, 827), (243, 825)]
+2025-05-19 13:47:57,469 - DEBUG - [compare_signals] - Number of signals in original model: 5. Next: compare signals.
+2025-05-19 13:47:57,473 - WARNING - [compare_signals] - WARNING: error in model comparison. Signal "Door System Logic":"B" -> "Actor Locked":"1" missing in recognized model.
+2025-05-19 13:47:57,475 - WARNING - [compare_signals] - WARNING: error in model comparison. Signal "Door System Logic":"C" -> "Actor Unlocked":"4" missing in recognized model.
+2025-05-19 13:47:57,475 - INFO - [compare_signals] - Signal: 2. Original signal #246 corresponds to recognized signal #822.
+2025-05-19 13:47:57,475 - INFO - [compare_signals] - Signal: 3. Original signal #247 corresponds to recognized signal #821.
+2025-05-19 13:47:57,475 - WARNING - [compare_signals] - WARNING: error in model comparison. Signal "Door System Logic":"E" -> "System Logic Logging":"5" missing in recognized model.
+2025-05-19 13:47:57,488 - INFO - [compare_signals] - Mapping original signals -> recognized signals: [(244, None), (245, None), (246, 822), (247, 821), (248, None)]
+2025-05-19 13:47:57,490 - INFO - [get_vis_error_count_by_category] - Vis errors by category: {'tokenization': 0, 'syntax': 1, 'model_instantiation': 0, 'model_comparison': 3}
+2025-05-19 13:47:57,490 - WARNING - [verify_visualization] - veriviz finished. Found 4 visualization errors. Errors by category: {'tokenization': 0, 'syntax': 1, 'model_instantiation': 0, 'model_comparison': 3}

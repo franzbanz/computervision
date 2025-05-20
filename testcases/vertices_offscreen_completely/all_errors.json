@@ -1,0 +1,38 @@
+[
+    {
+        "type": "instanceCountMismatch",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Task"
+    },
+    {
+        "type": "instanceCountMismatch",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Input"
+    },
+    {
+        "type": "instanceNameNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Task"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    },
+    {
+        "type": "edgeNotFound",
+        "element": null,
+        "bounding_box": null,
+        "class_name": "Signal"
+    }
+]

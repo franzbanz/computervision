@@ -1,0 +1,16 @@
+[
+    {
+        "type": "missingParent",
+        "element": [
+            "text",
+            0
+        ],
+        "bounding_box": [
+            789,
+            35,
+            54,
+            17
+        ],
+        "class_name": null
+    }
+]
