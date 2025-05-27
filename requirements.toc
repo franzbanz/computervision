@@ -1,0 +1,46 @@
+\contentsline {section}{\numberline {1}Vertex too small}{3}{section.1}%
+\contentsline {section}{\numberline {2}Vertex too large}{4}{section.2}%
+\contentsline {section}{\numberline {3}Vertex wrong color}{5}{section.3}%
+\contentsline {section}{\numberline {4}Vertex in wrong position}{6}{section.4}%
+\contentsline {section}{\numberline {5}Vertex input in wrong position}{7}{section.5}%
+\contentsline {section}{\numberline {6}Vertex task in wrong position}{8}{section.6}%
+\contentsline {section}{\numberline {7}Vertices too close to each other}{9}{section.7}%
+\contentsline {section}{\numberline {8}Vertices overlapping}{10}{section.8}%
+\contentsline {section}{\numberline {9}Vertices Partly offscreen}{11}{section.9}%
+\contentsline {section}{\numberline {10}Vertices Completly offscreen}{12}{section.10}%
+\contentsline {section}{\numberline {11}Vertex without parent element}{13}{section.11}%
+\contentsline {section}{\numberline {12}Vertex displayed incorrectly}{14}{section.12}%
+\contentsline {section}{\numberline {13}Vertex in visualization, but not in model}{15}{section.13}%
+\contentsline {section}{\numberline {14}Vertex in model, but not in visualization}{16}{section.14}%
+\contentsline {section}{\numberline {15}Edge too thin}{17}{section.15}%
+\contentsline {section}{\numberline {16}Edge 1px too wide}{18}{section.16}%
+\contentsline {section}{\numberline {17}Edge 2px too wide}{19}{section.17}%
+\contentsline {section}{\numberline {18}Edge 3px too wide}{20}{section.18}%
+\contentsline {section}{\numberline {19}Edge wrong color}{21}{section.19}%
+\contentsline {section}{\numberline {20}Edge 10px too high}{22}{section.20}%
+\contentsline {section}{\numberline {21}Edge 20px too high}{23}{section.21}%
+\contentsline {section}{\numberline {22}Edge 30px too high}{24}{section.22}%
+\contentsline {section}{\numberline {23}Edge 10px too long}{25}{section.23}%
+\contentsline {section}{\numberline {24}Edge 10px too short}{26}{section.24}%
+\contentsline {section}{\numberline {25}Edge 20px too short}{27}{section.25}%
+\contentsline {section}{\numberline {26}Edge connecting wrong elements}{28}{section.26}%
+\contentsline {section}{\numberline {27}Edges too close to each other - 10px}{29}{section.27}%
+\contentsline {section}{\numberline {28}Edges too close to each other - 5px}{30}{section.28}%
+\contentsline {section}{\numberline {29}Edges forming ambiguous intersections}{31}{section.29}%
+\contentsline {section}{\numberline {30}Edges partly offscreen}{32}{section.30}%
+\contentsline {section}{\numberline {31}Edges completly offscreen}{33}{section.31}%
+\contentsline {section}{\numberline {32}Edge in visualization, but not in model}{34}{section.32}%
+\contentsline {section}{\numberline {33}Edge in model, but not in visualization}{35}{section.33}%
+\contentsline {section}{\numberline {34}Text 5pt too small}{36}{section.34}%
+\contentsline {section}{\numberline {35}Text 10pt too small}{37}{section.35}%
+\contentsline {section}{\numberline {36}Text 5pt too large}{38}{section.36}%
+\contentsline {section}{\numberline {37}Text 10pt too large}{39}{section.37}%
+\contentsline {section}{\numberline {38}Text wrong in visualization}{40}{section.38}%
+\contentsline {section}{\numberline {39}Text wrong color}{41}{section.39}%
+\contentsline {section}{\numberline {40}Text 10px too low}{42}{section.40}%
+\contentsline {section}{\numberline {41}Text 10px too high}{43}{section.41}%
+\contentsline {section}{\numberline {42}Text overlapping with other elements}{44}{section.42}%
+\contentsline {section}{\numberline {43}Text offscreen}{45}{section.43}%
+\contentsline {section}{\numberline {44}Text in visualization, but not in model}{46}{section.44}%
+\contentsline {section}{\numberline {45}Text in model, but not in visualization}{47}{section.45}%
+\contentsfinish 
